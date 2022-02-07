@@ -7,5 +7,4 @@ def main():
 
     print('The flight is: ', my_insect.get_flight(), ' miles')  
 
-
 main()
