@@ -14,7 +14,8 @@ def main():
        # You wouldn't use Coin naymore, but my_coin.
 
        # Display the side of the coin that is facing up.
-       print('This side is up:', my_coin.get_sideup())    # notice you do not have to supply the argument/parameter
+       print('This side is up:', my_coin.get_sideup())    
+       # notice you do not have to supply the argument/parameter
        # when we create a new instance, the value is set to head by default.
 
        # Toss the coin.
@@ -24,11 +25,6 @@ def main():
            
            # Display the side of the coin that is facing up.
            print('This side is up:', my_coin.get_sideup())
-
-           
-
-
-       
 
 # Call the main function.
 
