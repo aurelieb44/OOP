@@ -9,7 +9,7 @@ class Insect:
         self.wings = 2
         self.flight = 0
 
-    def flight(self):
+    def flight_length(self):
         self.flight = random.randint(1, 10)
 
     def get_flight(self):
