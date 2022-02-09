@@ -1,10 +1,13 @@
 import InsectClass as i 
 
+
+
 def main():
-    my_insect = i.Insect()   
+    #it won't create an instance unless you supply 2 values
+    fly = i.Insect(2,4)    #create an instance
 
-    my_insect.flight_length()
+    fly.flight_length()
 
-    print('The flight is: ', my_insect.get_flight(), ' miles')  
+    print('The insect can fly up to ', fly.get_miles(), 'miles')
 
 main()

@@ -7,7 +7,7 @@ def main():
    # Get the starting balance.
    start_bal = float(input('Enter your starting balance: '))
 
-   # Create a BankAccount object.
+   # Create a BankAccount object. Create an instance called savings.
    savings = bc.BankAccount(start_bal)
 
    # Deposit the user's paycheck.

@@ -25,7 +25,10 @@ def main():
        for count in range(10):
            my_coin.toss()
            # call the toss method of my instance which belongs to my class.
-           
+           my_coin.sideup='Heads' #with this line, the output will always be 'heads'
+           #the above line doesn't work if you add two underscores before sideup.
+           #avoid hack
+
            # Display the side of the coin that is facing up.
            print('This side is up:', my_coin.get_sideup())
            # We are not manipulating the sideup attribute directly. 
