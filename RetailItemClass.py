@@ -1,6 +1,3 @@
-from pydoc import describe
-
-
 class RetailItem:
 
     def __init__(self, desc, inventory, price):

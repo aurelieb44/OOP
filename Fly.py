@@ -1,7 +1,5 @@
 import InsectClass as i 
 
-
-
 def main():
     #it won't create an instance unless you supply 2 values
     fly = i.Insect(2,4)    #create an instance
