@@ -14,8 +14,8 @@ my_student = sc.Student(StudentID, Name, DOB, Classification)
 my_student.set_age(DOB)
 my_student.set_regis_date(Classification)
 
-print(my_student.get_age())
-print(my_student.get_regis_date())
+print('Student Age: ', my_student.get_age())
+print('Student Registration Date: ', my_student.get_regis_date())
 
 
 
