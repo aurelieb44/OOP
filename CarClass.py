@@ -12,5 +12,18 @@ class Car:
     def brake(self):
         self.__speed -= 5
 
+    def set_year_model(self, year_model):
+        self.__year_model = year_model
+    
+    def set_make(self, make):
+        self.__make = make
+
+    def get_year_model(self):
+        return self.__year_model
+    
+    def get_make(self):
+        return self.__make
+
     def get_speed(self):
         return self.__speed
+
