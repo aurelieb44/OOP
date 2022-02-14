@@ -12,4 +12,5 @@ def main():
     print('Item #1: \t', item1.get_desc(),'\t\t', item1.get_inventory(), '\t\t\t', item1.get_price())
     print('Item #2: \t', item2.get_desc(),'\t', item2.get_inventory(), '\t\t\t', item2.get_price())
     print('Item #3: \t', item3.get_desc(),'\t\t\t', item3.get_inventory(), '\t\t\t', item3.get_price())
+
 main()
