@@ -13,7 +13,7 @@ class BankAccount:
       # The deposit method makes a deposit into the
       # account.
 
-    def deposit(self, amount): # mutator method
+    def deposit(self, amount): # mutator method #increase the balance by a certain amount # need additional attributes
         self.__balance += amount
 
       # The withdraw method withdraws an amount
@@ -31,10 +31,10 @@ class BankAccount:
       # The get_balance method returns the
       # account balance.
 
-    def get_balance(self): #accessor method
+    def get_balance(self): #accessor method # no need attribute other than self, returning a specific argument
         return self.__balance
         # we don't need arguments in that. 
         # The mutator method requires additional argument.
 
     def __str__(self):
-        return 'The balance is $' + format(self.__balance, ',.2f')
+        return 'The balance is $' + format(self.__balance, ',.2f') #without this, it prints gibberish
