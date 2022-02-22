@@ -22,3 +22,6 @@ class CellPhone:
 
     def get_retail_price(self): 
         return self.__retail_price
+
+    #def __str__(self):
+        #return self.__manufact

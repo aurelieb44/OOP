@@ -9,7 +9,7 @@ Classification = input("Enter Classification - i.e. 'Sr','Jr','S' or 'F'): ")
 
 my_student = sc.Student(StudentID, Name, DOB, Classification)
 
-my_student.set_age(DOB)
+my_student.calculate_age(DOB)
 my_student.set_regis_date(Classification)
 
 print('Student Age: ', my_student.get_age())

@@ -1,6 +1,6 @@
 import CoinClass as c
 
-def show_coin_status(coin_obj):
+def show_coin_status(coin_obj): 
     print("This side of the coin is up", coin_obj.get_sideup())
 
 def flip(coin_obj):

@@ -13,7 +13,7 @@ def main():
    # Deposit the user's paycheck.
    pay = float(input('How much were you paid this week? ')) # pay is a float object
    print('I will deposit that into your account.')
-   savings.deposit(pay)
+   savings.deposit(pay) 
 
    # Display the balance.
    print('Your account balance is $', format(savings.get_balance(), ',.2f'),
